@@ -51,9 +51,9 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "c:/home/.emacs.d/"
  "c:/home/.emacs.d/mylisp/"
  "c:/home/.emacs.d.original.backup/"
- "c:/home/.emacs.d/"
  "c:/Users/smondal1/Syncplicity Folders/Saptarshi/Projects/Arch/CCG/TGL/SAS/AMT WWAN/Latex/wwanamt/"
  "c:/Users/smondal1/Syncplicity Folders/Saptarshi/Projects/Arch/CCG/TGL/SAS/AMT WWAN/Latex/0.45/tmp/"
  "c:/Users/smondal1/Syncplicity Folders/Saptarshi/Projects/Arch/CCG/TGL/SAS/AMT WWAN/Latex/0.45/tmp/tex/"
@@ -85,10 +85,10 @@
 
 ;; ----- ido-work-file-list -----
 (
- "xcscope.el"
- "emacs-sm-theme.el"
- "emacs-sm-color-theme-saptarshi.el"
  "init.el"
+ "emacs-sm-theme.el"
+ "xcscope.el"
+ "emacs-sm-color-theme-saptarshi.el"
  "emacs-sm-prog-misc.el"
  "ch3.tex"
  "emacs-sm-kbd.el"
@@ -99,15 +99,15 @@
 
 ;; ----- ido-dir-file-cache -----
 (
- ("c:/Users/smondal1/Syncplicity Folders/Saptarshi/Projects/Arch/CCG/TGL/SAS/AMT WWAN/Latex/wwanamt/" (22516 2625 0 0) "title.tex" "tables.tex" "mystyle.sty" "main.tex" "main.synctex.gz" "main.pdf" "legal.tex" "img/" "ch9.tex" "ch8.tex" "ch7.tex" "ch6.tex" "ch5.tex" "ch4.tex" "ch3.tex" "ch2.tex" "ch10.tex" "ch1.tex" "appendix-B.tex" "appendix-A.tex" ".log" ".gitignore" ".git/" ".#ch6.tex" "#ch6.tex#" "../" "./")
+ ("c:/home/" (22516 6578 0 0) "tools/" "R/" "projects/" "goto.txt" "git-repo/" "en.prepl" "emacs-backups/" ".ssh/" ".Rhistory" ".gitconfig" ".emacs.d.original.backup/" ".emacs.d - Copy/" ".emacs.d/" ".bash_history" "../" "./")
+
+ ("c:/home/.emacs.d/mylisp/" (22516 6157 0 0) "xcscope.elc" "xcscope.el" "linum.elc" "linum.el" "linum+.elc" "linum+.el" "hl-line+.elc" "hl-line+.el" "emacs-sm-theme.el~" "emacs-sm-theme.elc" "emacs-sm-theme.el" "emacs-sm-prog-misc.el~" "emacs-sm-prog-misc.elc" "emacs-sm-prog-misc.el" "emacs-sm-kbd.elc" "emacs-sm-kbd.el" "emacs-sm-javamode.elc" "emacs-sm-javamode.el" "emacs-sm-ecb-setup.elc" "emacs-sm-ecb-setup.el" "emacs-sm-color-theme-saptarshi.elc" "emacs-sm-color-theme-saptarshi.el" "emacs-sm-ccmode.elc" "emacs-sm-ccmode.el" "emacs-sm-auto-insert.elc" "emacs-sm-auto-insert.el" "../" "./")
+
+ ("c:/home/.emacs.d/" (22516 6211 0 0) "srecode-map.elc" "srecode-map.el" "mylisp/" "monaco/" "init.elc" "init.el" "ido.last" "eshell/" "el-get/" "ede-projects.elc" "ede-projects.el" "colorthemes/" "auto-save-list/" ".ispell" ".gitignore" ".git/" "../" "./")
+
+ ("c:/Users/smondal1/Syncplicity Folders/Saptarshi/Projects/Arch/CCG/TGL/SAS/AMT WWAN/Latex/wwanamt/" (22516 5784 0 0) "title.tex" "tables.tex" "mystyle.sty" "main.tex" "main.synctex.gz" "main.pdf" "legal.tex" "img/" "ch9.tex" "ch8.tex" "ch7.tex" "ch6.tex" "ch5.tex" "ch4.tex" "ch3.tex" "ch2.tex" "ch10.tex" "ch1.tex" "appendix-B.tex" "appendix-A.tex" ".log" ".gitignore" ".git/" "../" "./")
 
  ("c:/home/.emacs.d.original.backup/" (22516 2599 0 0) "srecode-map.el" "mylisp/" "init.el" "ido.last" "eshell/" "elpa/" "el-get/" "ede-projects.el" "colorthemes/" "auto-save-list/" ".ispell" "%backup%~" "../" "./")
-
- ("c:/home/.emacs.d/mylisp/" (22516 2459 0 0) "xcscope.el" "linum.el" "linum+.el" "hl-line+.el" "emacs-sm-theme.el~" "emacs-sm-theme.el" "emacs-sm-prog-misc.el~" "emacs-sm-prog-misc.el" "emacs-sm-kbd.el" "emacs-sm-javamode.el" "emacs-sm-ecb-setup.el" "emacs-sm-color-theme-saptarshi.el" "emacs-sm-ccmode.el" "emacs-sm-auto-insert.el" "../" "./")
-
- ("c:/home/.emacs.d/" (22516 2468 0 0) "srecode-map.el" "mylisp/" "monaco/" "init.el" "ido.last" "eshell/" "el-get/" "ede-projects.el" "colorthemes/" "auto-save-list/" ".ispell" ".git/" "../" "./")
-
- ("c:/home/" (22516 2088 0 0) "tools/" "R/" "projects/" "goto.txt" "git-repo/" "en.prepl" "emacs-backups/" ".ssh/" ".Rhistory" ".gitconfig" ".emacs.d.original.backup/" ".emacs.d/" ".bash_history" "../" "./")
 
  ("c:/Users/smondal1/Dropbox/tools/ref/" (22501 26697 0 0) "tMux Reference.txt" "ROSCommands.org" "regular_expression_guide.txt" "R-Reference.org" "MyUnixCommandRef" "MyOSXReference.txt" "MyEmacsCommandRef (kul-desktop's conflicted copy 2016-06-12)" "MyEmacsCommandRef" "Git_reference.txt" "CPLUSPLUSRef.org" "AI-Learn-Path.org" ".ispell" "../" "./")
 
