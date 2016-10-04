@@ -35,10 +35,10 @@
 
 ;;-----------------------------------------------------------------------------
 ;;Setup initial size and position
-;; (setq default-frame-alist
-;;       '((top . 50) (left . 570)
-;;         (width . 90) (height . 50)
-;;         (cursor-type . box)))
+ (setq default-frame-alist
+       '((top . 50) (left . 570)
+         (width . 90) (height . 30)
+         (cursor-type . bar)))
 
 ;;-----------------------------------------------------------------------------
 ;;Miscelaneous Otion
@@ -137,7 +137,14 @@
 (if window-system
     (mouse-avoidance-mode 'cat-and-mouse))
 
-(setq-default ispell-program-name "aspell")
+;; Setup the Spell Checking related setting
+;;for the windows environment
+(if (eq system-type 'windows-nt)
+       (add-to-list 'exec-path "C:/Program Files (x86)/Aspell/bin/")
+)
+(setq ispell-program-name "aspell")
+(setq ispell-personal-dictionary "~/.emacs.d/.ispell")
+(require 'ispell)
 (setq flyspell-prog-mode t)
 
 ;; Setup a background Image
