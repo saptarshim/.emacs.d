@@ -109,12 +109,7 @@
 
 ;;Highlight Current Line
 (require 'hl-line+)
-;;(global-hl-line-mode nil)
 (toggle-hl-line-when-idle 1)
-;; To customize the background color
-;;(set-face-background 'hl-line "#111")  
-;;(set-face-background 'hl-line "red")  
-
 
 ;;Change the color of the cursor
 (set-cursor-color "green")
