@@ -1,4 +1,4 @@
-personal_ws-1.1 en 39
+personal_ws-1.1 en 45
 DeepSx
 pre
 PCIe
@@ -12,6 +12,7 @@ malware
 Sx
 XMM
 FW
+SSP
 HW
 HECI
 CIRA
@@ -21,6 +22,7 @@ MCTP
 IMEI
 KVM
 TBD
+Assitive
 API
 IP
 GPS
@@ -33,8 +35,12 @@ UDE
 IMSI
 CSME
 WWAN
+roadmap
+Perf
 USB
 SBP
+IPR
 programmatically
 PKI
 SMS
+Phablet

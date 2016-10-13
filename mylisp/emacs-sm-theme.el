@@ -109,7 +109,7 @@
 
 ;;Highlight Current Line
 (require 'hl-line+)
-(toggle-hl-line-when-idle 1)
+(toggle-hl-line-when-idle 5)
 
 ;;Change the color of the cursor
 (set-cursor-color "green")
