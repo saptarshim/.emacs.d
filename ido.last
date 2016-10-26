@@ -107,11 +107,13 @@
 
 ;; ----- ido-dir-file-cache -----
 (
- ("c:/home/.emacs.d/mylisp/" (22517 9625 0 0) "xcscope.el" "linum.el" "linum+.el" "hl-line+.el" "emacs-sm-theme.el~" "emacs-sm-theme.el" "emacs-sm-prog-misc.el~" "emacs-sm-prog-misc.el" "emacs-sm-kbd.el" "emacs-sm-javamode.el" "emacs-sm-ecb-setup.el" "emacs-sm-color-theme-saptarshi.el" "emacs-sm-ccmode.el" "emacs-sm-auto-insert.el" "../" "./")
+ ("c:/home/.emacs.d/mylisp/" (22527 48808 0 0) "xcscope.el" "linum.el" "linum+.el" "hl-line+.el" "emacs-sm-theme.el~" "emacs-sm-theme.el" "emacs-sm-prog-misc.el~" "emacs-sm-prog-misc.el" "emacs-sm-kbd.el" "emacs-sm-javamode.el" "emacs-sm-ecb-setup.el" "emacs-sm-color-theme-saptarshi.el" "emacs-sm-ccmode.el" "emacs-sm-auto-insert.el" "../" "./")
 
- ("c:/home/.emacs.d/" (22520 944 0 0) "srecode-map.el" "mylisp/" "monaco/" "init.el" "ido.last~" "ido.last" "eshell/" "el-get/" "ede-projects.el" "colorthemes/" "auto-save-list/" ".ispell" ".gitignore" ".git/" "../" "./")
+ ("c:/home/.emacs.d/" (22527 48826 0 0) "srecode-map.el" "mylisp/" "monaco/" "init.el" "ido.last~" "ido.last" "eshell/" "el-get/" "ede-projects.el" "colorthemes/" "auto-save-list/" ".ispell" ".gitignore" ".git/" "../" "./")
 
- ("c:/Users/smondal1/Syncplicity Folders/Saptarshi/Projects/Arch/CCG/Vision/vPro+/story/vision/" (22527 47780 0 0) "title.tex" "story-outline.org" "mystyle.sty" "main.tex" "main.synctex.gz" "main.pdf" "img/" "ch2.tex" "ch1.tex" ".git/" "../" "./")
+ ("c:/home/" (22527 47887 0 0) "tools/" "R/" "projects/" "goto.txt" "git-repo/" "en.prepl" "emacs-backups/" ".ssh/" ".Rhistory" ".gitconfig" ".emacs.d/" ".bash_history" "../" "./")
+
+ ("c:/Users/smondal1/Syncplicity Folders/Saptarshi/Projects/Arch/CCG/Vision/vPro+/story/vision/" (22527 48711 0 0) "title.tex" "story-outline.org" "mystyle.sty" "main.tex" "main.synctex.gz" "main.pdf" "img/" "ch2.tex" "ch1.tex" ".git/" ".#ch1.tex" "../" "./")
 
  ("c:/Users/smondal1/Syncplicity Folders/Saptarshi/Projects/Arch/CCG/Vision/vPro+/story/" (22501 24788 0 0) "vision/" "../" "./")
 
@@ -130,8 +132,6 @@
  ("c:/Users/smondal1/Syncplicity Folders/Saptarshi/Projects/Arch/CCG/TGL/SAS/AMT WWAN/Latex/" (22501 31190 0 0) "wwanamt/" "../" "./")
 
  ("c:/Users/smondal1/Syncplicity Folders/Saptarshi/Projects/Arch/CCG/TGL/SAS/AMT WWAN/Latex/wwanamt/" (22525 9216 0 0) "title.tex" "tables.tex" "mystyle.sty" "main.tex" "main.synctex.gz" "main.pdf" "legal.tex" "img/" "ch9.tex" "ch8.tex" "ch7.tex" "ch6.tex" "ch5.tex" "ch4.tex" "ch3.tex" "ch2.tex" "ch10.tex" "ch1.tex" "appendix-B.tex" "appendix-A.tex" ".log" ".gitignore" ".git/" "../" "./")
-
- ("c:/home/" (22516 6578 0 0) "tools/" "R/" "projects/" "goto.txt" "git-repo/" "en.prepl" "emacs-backups/" ".ssh/" ".Rhistory" ".gitconfig" ".emacs.d.original.backup/" ".emacs.d - Copy/" ".emacs.d/" ".bash_history" "../" "./")
 
  ("c:/home/.emacs.d.original.backup/" (22516 2599 0 0) "srecode-map.el" "mylisp/" "init.el" "ido.last" "eshell/" "elpa/" "el-get/" "ede-projects.el" "colorthemes/" "auto-save-list/" ".ispell" "%backup%~" "../" "./")
 

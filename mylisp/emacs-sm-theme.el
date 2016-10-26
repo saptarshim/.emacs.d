@@ -109,7 +109,7 @@
 
 ;;Highlight Current Line
 (require 'hl-line+)
-(toggle-hl-line-when-idle 5)
+(toggle-hl-line-when-idle 30)
 
 ;;Change the color of the cursor
 (set-cursor-color "green")
@@ -141,6 +141,12 @@
 (setq ispell-personal-dictionary "~/.emacs.d/.ispell")
 (require 'ispell)
 (setq flyspell-prog-mode t)
+
+(require 'recentf)
+(recentf-mode 1)
+(setq recentf-max-menu-items 25)
+(global-set-key "\C-x\ \C-r" 'recentf-open-files)
+
 
 ;; Setup a background Image
 ;;(custom-set-faces     '(default ((t (:stipple nil :background ((image :type jpeg :file "~/emacs/fish.png") :origin display) :foreground "white" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 101 :width normal :family "misc-fixed")))))
