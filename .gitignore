@@ -3,3 +3,16 @@
 
 # Packaging
 .cask
+
+# Ignore all tempfiles
+*~
+
+# Ignore the following Files
+recentf
+abbrev_defs
+srecode-map.el
+ido.last
+
+#Ignore the follwing directory
+auto-save-list/
+elpa/
