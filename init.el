@@ -25,6 +25,10 @@
 ;;Automatically insert headers in Source file
 (load "emacs-sm-auto-insert.el")
 
+;; Org mode specific preferences
+(load "emacs-sm-orgmode.el")
+
+
 ;;Load Visual Theme
 (load "emacs-sm-theme.el")
 
