@@ -1,4 +1,6 @@
+
 (setq org-todo-keywords
-       '((sequence "AR:" "DONE" "DELEGATED")))
+       '((sequence "AR:(i)" "WIP:(w)" "DELEGATED:(g)" "DONE:(d)")))
+
 (setq org-log-done 'time)
- (setq org-log-done 'note)
+(setq org-log-done 'note)
