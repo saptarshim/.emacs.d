@@ -1,4 +1,4 @@
-personal_ws-1.1 en 106
+personal_ws-1.1 en 110
 Phablet
 GrassLake
 ARs
@@ -7,6 +7,7 @@ UDE
 Sx
 SSC
 DVI
+SCCM
 SMBus
 WiGig
 XMM
@@ -17,6 +18,7 @@ roadmap
 CIRA
 SAS
 malware
+SSD
 DoS
 DSW
 TODO
@@ -24,6 +26,7 @@ WiFi
 SMS
 bpp
 backend
+enablement
 WWAN
 TGL
 GPS
@@ -37,9 +40,9 @@ CSME
 Krishnan
 DeepSx
 TCPC
+SRIS
 ICL
 FOTA
-SRIS
 HX
 Hx
 NVM
@@ -49,19 +52,20 @@ LTTPR
 Assitive
 HECI
 SBP
-Bluetooth
 Rahul
+Bluetooth
 Gauge
 CCG
 Gbps
 IMSI
 GL
-BW
 HDMI
+BW
 GPIO
 CP
 GPU
 HSD
+BCP
 INET
 Karu
 MCTP

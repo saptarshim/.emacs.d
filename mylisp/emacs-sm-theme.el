@@ -150,3 +150,9 @@
 
 ;; Setup a background Image
 ;;(custom-set-faces     '(default ((t (:stipple nil :background ((image :type jpeg :file "~/emacs/fish.png") :origin display) :foreground "white" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 101 :width normal :family "misc-fixed")))))
+
+
+
+;; enable visual line mode
+(setq line-move-visual 1)
+(setq global-visual-line-mode 1)
