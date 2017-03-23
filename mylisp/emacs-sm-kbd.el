@@ -91,6 +91,10 @@
 
 
 
+;; Magit related keyboard shortcuts
+(global-set-key (kbd "C-x g") 'magit-status)
+
+
 ;;
 ;; Saptarshi Key Bindling End
 ;;-----------------------------------------------------------------------------
