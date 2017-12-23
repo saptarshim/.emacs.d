@@ -70,7 +70,7 @@
 ;;Save all buffers before compilation by default
 (setq compilation-ask-about-save nil)
 
- 
+
 ;;fancy transparency
 (defun djcb-opacity-modify (&optional dec)
   "modify the transparency of the emacs frame; if DEC is t,
@@ -80,7 +80,7 @@
    (newalpha (if dec (- oldalpha 10) (+ oldalpha 10))))
     (when (and (>= newalpha frame-alpha-lower-limit) (<= newalpha 100))
       (modify-frame-parameters nil (list (cons 'alpha newalpha))))))
- 
+
 ;; C-8 will increase opacity (== decrease transparency)
 ;; C-9 will decrease opacity (== increase transparency
 ;; C-0 will returns the state to normal
@@ -94,6 +94,32 @@
 ;; Magit related keyboard shortcuts
 (global-set-key (kbd "C-x g") 'magit-status)
 
+
+;; Code Commenting related keyboard shortcuts
+(global-set-key (kbd "C-x C-;") 'comment-or-uncomment-region)
+
+;; Copy Line
+ (defun quick-copy-line ()
+      "Copy the whole line that point is on and move to the beginning of the next line.
+    Consecutive calls to this command append each line to the
+    kill-ring."
+      (interactive)
+      (let ((beg (line-beginning-position 1))
+            (end (line-beginning-position 2)))
+        (if (eq last-command 'quick-copy-line)
+            (kill-append (buffer-substring beg end) (< end beg))
+          (kill-new (buffer-substring beg end))))
+      (beginning-of-line 2))
+;; Key binding for copy line
+ (global-set-key "\C-c\C-k" 'quick-copy-line)
+
+;; Keybindgs for any/ace jump mode
+(global-set-key (kbd "C-c j") 'avy-goto-word-or-subword-1)
+(global-set-key (kbd "C-:") 'avy-goto-char)
+(global-set-key (kbd "C-'") 'avy-goto-char-2)
+;;(global-set-key (kbd "M-g f") 'avy-goto-line)
+;;(global-set-key (kbd "M-g w") 'avy-goto-word-1)
+;;(global-set-key (kbd "M-g e") 'avy-goto-word-0)
 
 ;;
 ;; Saptarshi Key Bindling End

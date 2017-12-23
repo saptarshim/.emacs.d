@@ -65,7 +65,7 @@
  '(custom-buffer-done-kill t)
  '(display-time-mode t)
  '(initial-scratch-message nil)
- '(package-selected-packages (quote (magit ess)))
+ '(package-selected-packages (quote (avy ecb w3m neotree ## magit ess)))
  '(semantic-idle-scheduler-idle-time 3)
  '(show-paren-mode t)
  '(tool-bar-mode nil)
@@ -81,3 +81,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(default ((t (:inherit nil :stipple nil :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 125 :width normal :foundry "outline" :family "Monaco")))))
+
+
+(setq url-proxy-services '(("no_proxy" . "work\\.com")
+                           ("http" . "proxy.ch.intel.com:911")))
