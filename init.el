@@ -51,6 +51,7 @@
 ;; Byte recompile everything at startup if not done already
 ;;(byte-recompile-directory (expand-file-name "~/.emacs.d") 0)
 
+(global-visual-line-mode t)
 
 (require 'package)
 (add-to-list 'package-archives
