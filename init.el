@@ -65,7 +65,7 @@
  '(custom-buffer-done-kill t)
  '(display-time-mode t)
  '(initial-scratch-message nil)
- '(package-selected-packages (quote (magit ess)))
+ '(package-selected-packages (quote (cuda-mode magit ess)))
  '(semantic-idle-scheduler-idle-time 3)
  '(show-paren-mode t)
  '(tool-bar-mode nil)
