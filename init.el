@@ -82,6 +82,3 @@
  ;; If there is more than one, they won't work right.
  '(default ((t (:inherit nil :stipple nil :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 125 :width normal :foundry "outline" :family "Monaco")))))
 
-
-(setq url-proxy-services '(("no_proxy" . "work\\.com")
-                           ("http" . "proxy.ch.intel.com:911")))
